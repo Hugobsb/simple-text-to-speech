@@ -1,0 +1,26 @@
+{
+  "name": "text-to-speech",
+  "version": "1.0.0",
+  "description": "Simple Node.js Text to Speech application built using IBM API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Text",
+    "to",
+    "speech",
+    "IBM",
+    "API"
+  ],
+  "author": "Hugo B. S. Benedicto",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/Hugobsb/simple-text-to-speech"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ibm-watson": "^5.6.0"
+  }
+}
